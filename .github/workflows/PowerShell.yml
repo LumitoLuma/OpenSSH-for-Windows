@@ -16,3 +16,6 @@ jobs:
       
     - name: Install
       run: powershell ./chocolateyinstall.ps1
+      
+    - name: Refresh environment variables
+      run: refreshenv.cmd
