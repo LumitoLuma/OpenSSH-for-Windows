@@ -15,7 +15,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Install
-      run: powershell ./chocolateyinstall.ps1
-      
-    - name: Refresh environment variables
-      run: refreshenv.cmd
+      run: powershell install.bat
