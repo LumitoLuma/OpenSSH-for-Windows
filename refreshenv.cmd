@@ -64,4 +64,4 @@ goto main
     SET "PROCESSOR_ARCHITECTURE=%OriginalArchitecture%"
 
     echo | set /p dummy="Finished."
-    echo .
+    echo.
