@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Install
-      run: cmd.exe install.bat
+      run: cmd /c install.bat
