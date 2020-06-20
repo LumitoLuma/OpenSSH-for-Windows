@@ -567,6 +567,3 @@ If (Test-Path "$TargetFolder\ssh.exe")
   Write-Output "`r`nNEW VERSIONS OF SSH EXES:"
   Write-Output "$(dir "$TargetFolder\*.exe" | select -expand fullname | get-command | select -expand fileversioninfo | ft filename, fileversion -auto | out-string)"
 }
-
-write-output ""
-Write-Warning "You must start a new prompt, or use the command 'refreshenv' (provided by your chocolatey install) to re-read the environment for the tools to be available in this shell session."
