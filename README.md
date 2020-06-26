@@ -1,4 +1,4 @@
-# OpenSSH for Windows - Installer (thanks Chocolatey!)
+# OpenSSH for Windows - Installer
 
 ## About OpenSSH for Windows - Installer
 
