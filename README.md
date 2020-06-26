@@ -10,8 +10,7 @@ However, this is not the latest version of the product, because I have used a po
 
 ## Installation instructions
 
-[![PowerShell Install](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/PowerShell%20Install/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A"PowerShell+Install") [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer)
-
+[![PowerShell Install](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/PowerShell%20Install/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A"PowerShell+Install") [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer) [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.OpenSSHforWindows-Installer?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=4&branchName=master)
 - Download or `git clone` the repository.
 - Open Command Prompt as Administrator (`cmd.exe`) and go to the directory in which you have the extracted files.
 - Run `install.bat`
