@@ -55,4 +55,12 @@ Reporting bugs here is not allowed, unless you have reported them through [Issue
 
 I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell) and [Chocolatey](https://www.chocolatey.org) for making this project possible, and to you for choosing my programs!
 
-#### © 1996 - 2020 OpenBSD project, 1999 - 2020 OpenSSH project, 2006 - 2020 PowerShell and Microsoft Corporation, 2017 - 2020 Chocolatey Software Inc. and 2022 Lumito.
+## Copyrights
+
+#### © 1996 - 2020, the OpenBSD project
+#### © 1999 - 2020, the OpenSSH project
+#### © 2006 - 2020, PowerShell and Microsoft Corporation
+#### © 2017 - 2020, Chocolatey Software Inc.
+#### © 2022 Lumito
+
+Visit my website: [www.lumito.net](https://lumito.net)
