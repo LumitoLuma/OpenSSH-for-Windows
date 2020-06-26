@@ -38,7 +38,9 @@ Sadly, `uninstall.ps1` currently does not work, so if you want to uninstall Open
 - Open PATH variable as indicated on 'Aditional installation instructions'. 
 - Delete the value that displays Program Files' OpenSSH directory.
 - Save changes and done!
- 
+
+I'm working to make this feature possible.
+
 ## Contributing to the project.
  
 If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact).
