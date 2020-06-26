@@ -49,7 +49,7 @@ You can contribute with the following things:
 - Code improvements
 - Ideas for future programs / services.
 
-Reporting bugs here is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/issues) tab and you have not received any comments for a while (minimum a week).
+Reporting bugs there is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/issues) tab and you have not received any comments for a while (minimum a week).
 
 ## Aknowledgements
 
