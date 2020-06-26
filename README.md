@@ -61,6 +61,6 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 #### © 1999 - 2020, the OpenSSH project
 #### © 2006 - 2020, PowerShell and Microsoft Corporation
 #### © 2017 - 2020, Chocolatey Software Inc.
-#### © 2022 Lumito
+#### © 2020, Lumito
 
 Visit my website: [www.lumito.net](https://lumito.net)
