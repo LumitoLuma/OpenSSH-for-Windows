@@ -7,3 +7,6 @@ pool:
 steps:
 - script: cmd /c install.bat
   displayName: 'Install'
+  
+- script: cmd /c install-cxp.bat
+  displayName: "Install changing PowerShell's execution policy"
