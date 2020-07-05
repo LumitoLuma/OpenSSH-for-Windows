@@ -51,9 +51,9 @@ cd "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 If (!$Uninstall)
 {
-  . ".\chocolateyinstall.ps1"
+  . ".\install.ps1"
 }
 Else
 {
-  . ".\chocolateyuninstall.ps1"
+  . ".\uninstall.ps1"
 }
