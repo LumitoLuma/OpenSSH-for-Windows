@@ -1,4 +1,4 @@
-language: C
+language: none
 os: windows
 script:
   - powershell .\install.ps1
