@@ -1,4 +1,4 @@
 language: C
 os: windows
 script:
-  - powershell .\install.ps1
+  - powershell ./install.ps1
