@@ -1,0 +1,3 @@
+os: windows
+script:
+  - powershell .\install.ps1
