@@ -1,0 +1,5 @@
+language: C
+os: windows
+script:
+  - powershell set-ExecutionPolicy bypass
+  - powershell ./install.ps1
