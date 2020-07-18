@@ -1,16 +1,19 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+jobs:
+- job: Windows
 
-steps:
-- task: BatchScript@1
-  inputs:
-    filename: 'install.bat'
-  displayName: 'Install'
+  pool:
+    vmImage: 'windows-latest'
 
-- task: BatchScript@1
-  inputs:
-    filename: 'install-cxp.bat'
-  displayName: "Install changing PowerShell's execution policy"
+  steps:
+  - task: BatchScript@1
+    inputs:
+      filename: 'install.bat'
+    displayName: 'Install'
+
+  - task: BatchScript@1
+    inputs:
+      filename: 'install-cxp.bat'
+    displayName: "Install changing PowerShell's execution policy"
