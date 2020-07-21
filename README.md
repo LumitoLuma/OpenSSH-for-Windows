@@ -24,7 +24,7 @@ In modern versions of Windows, OpenSSH comes preinstalled with your system. This
 
 -   Open Command Prompt (`cmd.exe`) and type `where ssh.exe`. You will se two results: One from System32 and another from Program Files.
 -   Copy `ssh.exe` Program Files' path.
--   Run `systempropertiesadvanced` and go to Edit system variables (or something similar).
+-   Run `systempropertiesadvanced.exe` and go to Edit system variables (or something similar).
 -   At system variables section, search for PATH variable, and edit it.
 -   Create a new value (Windows 10) and paste the path of the directory in which `ssh.exe` is installed (Windows 10 and Windows 7) before the old OpenSSH directory (Windows 7). If you are using Windows 10, move the new value above the old OpenSSH one.
 -   Save changes and restart console.
