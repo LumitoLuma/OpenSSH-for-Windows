@@ -2,4 +2,4 @@ language: C
 os: windows
 script:
   - cd old
-  - ./install.bat
+  - ./install-cxp.bat
