@@ -1,4 +1,4 @@
-name: CI
+name: Inno Setup
 
 on:
   push:
