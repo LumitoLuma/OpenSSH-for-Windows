@@ -20,7 +20,7 @@ jobs:
       run: cd ISCompiler && cl ISCompil.cpp
     
     - name: Compile correct Inno Setup script using ISCompil.exe
-      run: cd ISCompiler && ISCompil.exe
+      run: cd ISCompiler && .\ISCompil.exe
     
     - name: Check C++ source file for vulnerabilities
       uses: deep5050/cppcheck-action@1.1.1
