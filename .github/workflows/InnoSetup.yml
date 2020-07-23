@@ -22,9 +22,6 @@ jobs:
     - name: Compile correct Inno Setup script using ISCompil.exe
       run: cd ISCompiler && .\ISCompil.exe
     
-    - name: Check C++ source file for vulnerabilities
-      uses: deep5050/cppcheck-action@1.1.1
-    
     - name: Uploading Build Artifact
       uses: actions/upload-artifact@v2
       with:
