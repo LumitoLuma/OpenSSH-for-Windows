@@ -13,41 +13,17 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Enable x64 Developer Command Prompt
+    - name: Enable Developer Command Prompt
       uses: ilammy/msvc-dev-cmd@v1.3.0
     
-    - name: Compile x64 ISCompil.cpp
+    - name: Compile ISCompil.cpp
       run: cd ISCompiler && cl ISCompil.cpp
     
-    - name: Compile x64 Inno Setup script using ISCompil.exe
+    - name: Compile Inno Setup script using ISCompil.exe
       run: cd ISCompiler && .\ISCompil.exe
     
-<<<<<<< HEAD
-    - name: Uploading x64 Build Artifact
-=======
-    - name: Check C++ source file for vulnerabilities
-      uses: deep5050/cppcheck-action@1.1.1
-    
     - name: Uploading Build Artifact
->>>>>>> parent of 00744b7... Update InnoSetup.yml
       uses: actions/upload-artifact@v2
       with:
         name: Inno Setup x64 compiled script
         path: x64
-    
-    - name: Enable x86 Developer Command Prompt
-      uses: ilammy/msvc-dev-cmd@v1.3.0
-      with:
-        arch: x86
-    
-    - name: Compile x86 ISCompil.cpp
-      run: cd ISCompiler && del ISCompil.exe && cl ISCompil.cpp
-    
-    - name: Compile x86 Inno Setup script using ISCompil.exe
-      run: cd ISCompiler && .\ISCompil.exe
-    
-    - name: Uploading x86 Build Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: Inno Setup x86 compiled script
-        path: x86
