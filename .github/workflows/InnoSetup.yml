@@ -1,0 +1,29 @@
+name: Inno Setup
+
+on:
+  push:
+    branches: [ InnoSetup-dev ]
+  pull_request:
+    branches: [ InnoSetup-dev ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Enable Developer Command Prompt
+      uses: ilammy/msvc-dev-cmd@v1.3.0
+    
+    - name: Compile ISCompil.cpp
+      run: cd ISCompiler && cl ISCompil.cpp
+    
+    - name: Compile Inno Setup script using ISCompil.exe
+      run: cd ISCompiler && .\ISCompil.exe
+    
+    - name: Uploading Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Inno Setup x64 compiled script
+        path: x64
