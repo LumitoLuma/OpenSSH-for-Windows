@@ -8,6 +8,11 @@ jobs:
     vmImage: 'windows-latest'
 
   steps:
+  - task: BatchScript@1
+    inputs:
+      filename: 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat'
+      modifyEnvironment: true
+
   - script: |
       cd ISCompiler
       PATH=%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\Hostx64\x64ç
