@@ -91,7 +91,7 @@ Reporting bugs there is not allowed, unless you have reported them through [Issu
 
 ## Acknowledgements
 
-I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell) and [Chocolatey](https://www.chocolatey.org) for making this project possible, and to you for choosing my programs!
+I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell), [Chocolatey](https://www.chocolatey.org) and [Inno Setup](https://www.innosetup.com) for making this project possible, and to you for choosing my programs!
 
 ## Copyrights
 
@@ -102,6 +102,8 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 © 2006 - 2020, PowerShell and Microsoft Corporation
 
 © 2017 - 2020, Chocolatey Software Inc.
+
+© 1997-2020 Jordan Russell
 
 © 2020, Lumito
 
