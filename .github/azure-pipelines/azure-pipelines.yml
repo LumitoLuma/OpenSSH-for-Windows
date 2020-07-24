@@ -2,6 +2,29 @@ trigger:
 - master
 
 jobs:
+- job: Windows
+
+  pool:
+    vmImage: 'windows-latest'
+
+  steps:
+  - script: |
+      cd ISCompiler
+      PATH=%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\Hostx64\x64ç
+      cl ISCompil.cpp
+    displayName: 'Compiling ISCompil.cpp'
+
+  - script: |
+      cd ISCompiler
+      ISCompil.exe
+    displayName: 'Compiling correct version of OpenSSH for Windows - Installer using ISCompiler.exe'
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: '$(Pipeline.Workspace)\s\x64\OpenSSHforWindows-Installer-x64.exe'
+      artifact: 'OpenSSH for Windows - Instaler x64 setup'
+      publishLocation: 'pipeline'
+
 - job: Windows_old
 
   pool:
