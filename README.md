@@ -64,7 +64,7 @@ This issue is fixed using the [new installation method](#new-method-inno-setup-a
 
 ### New method (Inno Setup and C++)
 
-You can uninstall OpenSSH for Windows through [Programs and Features](ms-settings:appsfeatures)
+You can uninstall OpenSSH for Windows through Programs and Features in Control Panel.
 
 ### Old method (PowerShell)
 
