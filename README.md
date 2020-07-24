@@ -8,6 +8,8 @@ An that is what OpenSSH for Windows - Installer does: install a modern version o
 
 However, this is not the latest version of the product, because I have used a portable compiled version from [PowerShell's GitHub](https://github.com/PowerShell), and then, I've applied Chocolatey's OpenSSH installation script.
 
+Recently, I have uploaded a new way to install OpenSSH for Windows: a real installer! Coded in Inno Setup and C++. Installation instructions for this method are also in this file.
+
 ## Installation instructions
 
 |                        GitHub Actions                        |                           AppVeyor                           |                       Azure Pipelines                        |                          Travis CI                           |                            Codacy                            |
