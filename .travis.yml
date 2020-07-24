@@ -1,5 +1,9 @@
-language: C
 os: windows
+language: C
+install:
+  - choco.exe install innosetup
+  - choco.exe install mingw
 script:
-  - cd old
-  - ./install-cxp.bat
+  - cd ISCompiler
+  - g++ ISCompil.cpp -o ISCompil.exe
+  - ISCompil.exe
