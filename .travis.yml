@@ -2,7 +2,6 @@ os: windows
 language: C
 install:
   - choco.exe install innosetup
-  - choco.exe install mingw
 script:
   - cd ISCompiler
   - g++ ISCompil.cpp -o ISCompil.exe
