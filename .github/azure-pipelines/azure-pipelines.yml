@@ -2,7 +2,7 @@ trigger:
 - master
 
 jobs:
-- job: Windows-old
+- job: Windows_old
 
   pool:
     vmImage: 'windows-latest'
