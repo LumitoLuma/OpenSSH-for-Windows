@@ -35,6 +35,7 @@ However, this is not the latest version of the product, because I have used a po
 7. Done! Now you can install OpenSSH for Windows correctly.
 
 ### Old method (PowerShell)
+
 - Download or `git clone` the repository.
 - Open Command Prompt as Administrator (`cmd.exe`) and go to the directory in which you have extracted the files.
 - Run `install.bat`
@@ -42,6 +43,9 @@ However, this is not the latest version of the product, because I have used a po
 - Done! Enjoy OpenSSH for Windows!
 
 #### Additional installation instructions (for PowerShell method)
+
+**ATTENTION: this installation way is deprecated, since there is a [new installation method](#new-method-inno-setup-and-c-beta) that fixes all the issues this method has.**
+
 In modern versions of Windows, OpenSSH comes preinstalled with your system. This script will not overwrite the original files, it will be installed in another directory. The problem is that when you install OpenSSH for Windows and you run, for example, `ssh -V`, you will notice that you are running version 7.* of OpenSSH (Windows preinstalled version). If you want to run the newer version of OpenSSH, follow this steps:
 
 -   Open Command Prompt (`cmd.exe`) and type `where ssh.exe`. You will se two results: One from System32 and another from Program Files.
@@ -52,11 +56,17 @@ In modern versions of Windows, OpenSSH comes preinstalled with your system. This
 -   Save changes and restart console.
 -   Done! Now if you run `ssh -V` you will see the new version of OpenSSH.
 
-This issue is fixed using the [new installation method](#new-method-inno-setup-and-c-beta) (with InnoSetup and C++).
+This issue is fixed using the [new installation method](#new-method-inno-setup-and-c-beta) (with Inno Setup and C++).
 
 
 
 ## Uninstallation instructions
+
+### New method (Inno Setup and C++)
+
+You can uninstall OpenSSH for Windows through [Programs and Features](ms-settings:appsfeatures)
+
+### Old method (PowerShell)
 
 Sadly, `uninstall.ps1` currently does not work, so if you want to uninstall OpenSSH, you'll need to do it manually:
 
