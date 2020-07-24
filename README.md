@@ -105,6 +105,4 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 
 © 1997-2020 Jordan Russell
 
-© 2020, Lumito
-
-**Visit my website: [www.lumito.net](https://lumito.net)**
+**© 2020, Lumito - [www.lumito.net](https://lumito.net)**
