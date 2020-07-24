@@ -2,9 +2,9 @@ name: Inno Setup
 
 on:
   push:
-    branches: [ InnoSetup-dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ InnoSetup-dev ]
+    branches: [ master ]
 
 jobs:
   build:
