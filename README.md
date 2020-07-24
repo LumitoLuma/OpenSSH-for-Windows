@@ -13,42 +13,28 @@ However, this is not the latest version of the product, because I have used a po
 | [![PowerShell Install](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/PowerShell%20Install/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A"PowerShell+Install") | [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.OpenSSHforWindows-Installer?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=4&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer.svg?branch=master)](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
-
-
-There are two ways to install OpenSSH for Windows:
+**There are two ways to install OpenSSH for Windows:**
 
 ### New method (Inno Setup and C++) (Beta)
 
 **Attention! This method is not tested on x86 Windows systems. If you want to test it on that Windows architecture, please contact me trough [www.lumito.net/contact](https://lumito.net/contact) with the results. Thanks!**
 
 #### Special requirements
-
 - Inno Setup 6
-
 - MSVC or MinGW with gcc and g++ support
 
 #### Installation steps
-
 1. Download or `git clone` the repository.
-
 2. Open Developer Command Prompt (if you use MSVC) or Command Prompt if you use MinGW.
-
 3. Go to the ISCompiler folder at the directory in which you have extracted the files.
-
 4. Now run:
-
    - `cl.exe ISCompil.cpp` if you are using MSVC.
-
    - `g++ ISCompil.cpp -o ISCompil.exe` if you are using MinGW.
-
 5. After compiling `ISCompil.cpp`, run `ISCompil.exe`
-
 6. Finally, check `..\{WINDOWS ARCHITECTURE}` folder for `OpenSSHforWindows-Installer-{WINDOWS ARCHITECTURE}.exe`
-
 7. Done! Now you can install OpenSSH for Windows correctly.
 
 ### Old method (PowerShell)
-
 - Download or `git clone` the repository.
 - Open Command Prompt as Administrator (`cmd.exe`) and go to the directory in which you have extracted the files.
 - Run `install.bat`
@@ -56,7 +42,6 @@ There are two ways to install OpenSSH for Windows:
 - Done! Enjoy OpenSSH for Windows!
 
 #### Additional installation instructions (for PowerShell method)
-
 In modern versions of Windows, OpenSSH comes preinstalled with your system. This script will not overwrite the original files, it will be installed in another directory. The problem is that when you install OpenSSH for Windows and you run, for example, `ssh -V`, you will notice that you are running version 7.* of OpenSSH (Windows preinstalled version). If you want to run the newer version of OpenSSH, follow this steps:
 
 -   Open Command Prompt (`cmd.exe`) and type `where ssh.exe`. You will se two results: One from System32 and another from Program Files.
