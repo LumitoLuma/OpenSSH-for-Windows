@@ -25,13 +25,20 @@ However, this is not the latest version of the product, because I have used a po
 
 #### Installation steps
 1.  Download or `git clone` the repository.
+
 2.  Open Developer Command Prompt (if you use MSVC) or Command Prompt if you use MinGW.
+
 3.  Go to the ISCompiler folder at the directory in which you have extracted the files.
+
 4.  Now run:
+
     -   `cl.exe ISCompil.cpp` if you are using MSVC.
     -   `g++ ISCompil.cpp -o ISCompil.exe` if you are using MinGW.
+
 5.  After compiling `ISCompil.cpp`, run `ISCompil.exe`
+
 6.  Finally, check `..\{WINDOWS ARCHITECTURE}` folder for `OpenSSHforWindows-Installer-{WINDOWS ARCHITECTURE}.exe`
+
 7.  Done! Now you can install OpenSSH for Windows correctly.
 
 ### Old method (PowerShell)
@@ -64,7 +71,7 @@ This issue is fixed using the [new installation method](#new-method-inno-setup-a
 
 You can uninstall OpenSSH for Windows through Programs and Features in Control Panel.
 
-### Old method (PowerShell)
+### Old method
 
 Sadly, `uninstall.ps1` currently does not work, so if you want to uninstall OpenSSH, you'll need to do it manually:
 
