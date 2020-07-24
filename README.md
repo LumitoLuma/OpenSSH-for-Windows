@@ -55,10 +55,7 @@ There are two ways to install OpenSSH for Windows:
 - Wait a few seconds...
 - Done! Enjoy OpenSSH for Windows!
 
-
-
-
-### Additional installation instructions
+#### Additional installation instructions (for PowerShell method)
 
 In modern versions of Windows, OpenSSH comes preinstalled with your system. This script will not overwrite the original files, it will be installed in another directory. The problem is that when you install OpenSSH for Windows and you run, for example, `ssh -V`, you will notice that you are running version 7.* of OpenSSH (Windows preinstalled version). If you want to run the newer version of OpenSSH, follow this steps:
 
@@ -69,6 +66,10 @@ In modern versions of Windows, OpenSSH comes preinstalled with your system. This
 -   Create a new value (Windows 10) and paste the path of the directory in which `ssh.exe` is installed (Windows 10 and Windows 7) before the old OpenSSH directory (Windows 7). If you are using Windows 10, move the new value above the old OpenSSH one.
 -   Save changes and restart console.
 -   Done! Now if you run `ssh -V` you will see the new version of OpenSSH.
+
+This issue is fixed using the [new installation method](#new-method-inno-setup-and-c-beta) (with InnoSetup and C++).
+
+
 
 ## Uninstallation instructions
 
