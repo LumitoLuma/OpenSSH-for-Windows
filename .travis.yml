@@ -5,4 +5,4 @@ install:
 script:
   - cd ISCompiler
   - g++ ISCompil.cpp -o ISCompil.exe
-  - ISCompil.exe
+  - ./ISCompil.exe
