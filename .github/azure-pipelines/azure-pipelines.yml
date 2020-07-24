@@ -27,7 +27,7 @@ jobs:
   - task: PublishPipelineArtifact@1
     inputs:
       targetPath: '$(Pipeline.Workspace)\s\x64\OpenSSHforWindows-Installer-x64.exe'
-      artifact: 'OpenSSH for Windows - Instaler x64 setup'
+      artifact: 'OpenSSH for Windows - Installer x64 setup'
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
 
