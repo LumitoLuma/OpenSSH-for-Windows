@@ -114,5 +114,5 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 © 2017 - 2020, Chocolatey Software Inc.
 
 © 1997-2020 Jordan Russell
-
+<br><br>
 **© 2020, Lumito - [www.lumito.net](https://lumito.net)**
