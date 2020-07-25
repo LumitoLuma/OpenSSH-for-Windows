@@ -1,6 +1,6 @@
 @echo off
 echo Installing OpenSSH...
-powershell set-ExecutionPolicy bypass -Scope CurrentUser
+powershell Set-ExecutionPolicy bypass -Scope CurrentUser
 powershell .\install.ps1
 goto refresh
 
