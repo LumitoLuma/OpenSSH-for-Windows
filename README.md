@@ -18,7 +18,7 @@ Recently, I have uploaded a new way to install OpenSSH for Windows: a real insta
 | [![PowerShell Install (old)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/PowerShell%20Install%20(old)/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A%22PowerShell+Install+%28old%29%22) |                        **----------**                        |                        **----------**                        |                        **----------**                        |                        **----------**                        |
 
 
-**There are two ways to install OpenSSH for Windows:**
+There are two ways to install OpenSSH for Windows:
 
 ### New method (Inno Setup and C++) (Beta)
 
