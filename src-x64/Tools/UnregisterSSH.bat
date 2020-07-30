@@ -4,3 +4,5 @@ echo.
 pushd ..
 powershell .\uninstall-sshd.ps1
 ping localhost -n 2 >NUL
+popd
+exit /b

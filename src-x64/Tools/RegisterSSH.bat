@@ -4,3 +4,5 @@ echo.
 pushd ..
 powershell .\install-sshd.ps1
 ping localhost -n 2 >NUL
+popd
+exit /b
