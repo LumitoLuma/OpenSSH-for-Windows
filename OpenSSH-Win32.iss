@@ -47,7 +47,6 @@ Type: filesandordirs; Name: "{app}";
 
 [Files]
 Source: "src-x86\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "src-x86\Tools\*"; DestDir: "{app}\Tools"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
 Filename: "{app}\Tools\RegisterSSH.bat";
