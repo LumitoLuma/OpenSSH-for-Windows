@@ -22,7 +22,7 @@ jobs:
   - script: |
       cd ISCompiler
       ISCompil.exe
-    displayName: 'Compiling correct version of OpenSSH for Windows - Installer using ISCompiler.exe'
+    displayName: 'Compiling correct version of OpenSSH for Windows - Installer using ISCompil.exe'
 
   - task: PublishPipelineArtifact@1
     inputs:
