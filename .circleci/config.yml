@@ -9,6 +9,6 @@
     
      steps:
        - checkout
-       - run: choco install mingw innosetup
+       - run: choco install mingw innosetup -y
        - run: cd ISCompiler && g++ ISCompil.cpp -o ISCompil.exe
        - run: cd ISCompiler && ./ISCompil.exe
