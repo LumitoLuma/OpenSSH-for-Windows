@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - checkout
-      - run: choco install innosetup -y
+      - run: choco install mingw innosetup -y
       - run: |
           cd ISCompiler
-          cl ISCompil.cpp
+          g++ ISCompil.cpp -o ISCompil.exe
       - run: |
           cd ISCompiler
           ./ISCompil.exe
