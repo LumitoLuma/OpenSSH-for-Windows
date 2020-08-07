@@ -1,18 +1,18 @@
- version: 2.1
+version: 2.1
 
- orbs:
-  win: circleci/windows@2.2.0
+orbs:
+ win: circleci/windows@2.2.0
 
- jobs:
-   build:
-     executor: win/default     
-    
-     steps:
-       - checkout
-       - run: choco install mingw innosetup -y
-       - run: |
-           cd ISCompiler
-           g++ ISCompil.cpp -o ISCompil.exe
-       - run: |
-           cd ISCompiler
-           ./ISCompil.exe
+jobs:
+  build:
+    executor: win/default
+
+    steps:
+      - checkout
+      - run: choco install innosetup -y
+      - run: |
+          cd ISCompiler
+          cl ISCompil.cpp
+      - run: |
+          cd ISCompiler
+          ./ISCompil.exe
