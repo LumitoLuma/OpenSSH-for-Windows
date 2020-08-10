@@ -88,7 +88,7 @@ I'm working to make this feature possible.
 
 ## Contributing to the project
 
-If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact).
+If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
 
 You can contribute with the following things:
 
