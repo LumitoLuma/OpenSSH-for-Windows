@@ -21,7 +21,7 @@ There are two ways to install OpenSSH for Windows:
 
 ### New method (Inno Setup and C++) (Beta)
 
-**Attention! This method is not tested on x86 Windows systems. If you want to test it on that Windows architecture, please contact me trough [www.lumito.net/contact](https://lumito.net/contact) with the results. Thanks!**
+**Attention! This method is not tested on x86 Windows systems. If you want to test it on that Windows architecture, please contact me trough [www.lumito.net/contact](https://www.lumito.net/contact) with the results. Thanks!**
 
 #### Special requirements
 -   Inno Setup 6
@@ -88,7 +88,7 @@ I'm working to make this feature possible.
 
 ## Contributing to the project
 
-If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
+If you want to contribute to the project, please contact me through [www.lumito.net/contact](https://www.lumito.net/contact) or open a Pull Request.
 
 You can contribute with the following things:
 
@@ -114,4 +114,4 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 
 © 1997 - 2020, Jordan Russell's Software
 <br><br>
-**© 2020, Lumito - [www.lumito.net](https://lumito.net)**
+**© 2020, Lumito - [www.lumito.net](https://www.lumito.net)**
