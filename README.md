@@ -36,7 +36,7 @@ There are two ways to install OpenSSH for Windows:
 
 4.  Now run:
 
-    -   `cl.exe ISCompil.cpp` if you are using MSVC.
+    -   `cl ISCompil.cpp` if you are using MSVC.
     -   `g++ ISCompil.cpp -o ISCompil.exe` if you are using MinGW.
 
 5.  After compiling `ISCompil.cpp`, run `ISCompil.exe`
