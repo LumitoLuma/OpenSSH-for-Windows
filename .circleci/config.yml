@@ -9,10 +9,16 @@ jobs:
 
     steps:
       - checkout
-      - run: choco install mingw innosetup -y
-      - run: |
-          cd ISCompiler
-          g++ ISCompil.cpp -o ISCompil.exe
-      - run: |
-          cd ISCompiler
-          ./ISCompil.exe
+      - run:
+          name: Installing MinGW and Inno Setup
+          command: choco install mingw innosetup -y
+      - run:
+          name: Compiling ISCompil.cpp
+          command: |
+            cd ISCompiler
+            g++ ISCompil.cpp -o ISCompil.exe
+      - run:
+          name: Compiling correct version of OpenSSH for Windows - Installer using ISCompil.exe
+          command: |
+            cd ISCompiler
+            ./ISCompil.exe
