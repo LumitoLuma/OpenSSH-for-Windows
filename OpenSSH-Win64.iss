@@ -1,4 +1,4 @@
-#include "resources\environment.iss"
+#include "resources/environment.iss"
 
 #define MyAppName "OpenSSH for Windows x64"
 #define MyAppVersion "8.1"
@@ -11,7 +11,7 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
 VersionInfoVersion={#MyAppVersion}
-AppCopyright=Copyright © 2020 {#MyAppPublisher}
+AppCopyright=© 2020, {#MyAppPublisher}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
