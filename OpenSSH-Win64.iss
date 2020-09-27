@@ -3,7 +3,6 @@
 #define MyAppName "OpenSSH for Windows x64"
 #define MyAppVersion "8.1"
 #define MyAppPublisher "Lumito"
-#define MyAppURL "https://github.com/LumitoLuma/OpenSSHforWindows-Installer"
 
 [Setup]
 AppId={{FD75F6F9-32A3-4A3C-BB8B-8A67FD261F66}
@@ -13,28 +12,28 @@ AppVerName={#MyAppName} {#MyAppVersion}
 VersionInfoVersion={#MyAppVersion}
 AppCopyright=© 2020, {#MyAppPublisher}
 AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppURL}
-AppUpdatesURL={#MyAppURL}
+AppPublisherURL="https://www.lumito.net"
+AppSupportURL="https://github.com/LumitoLuma/OpenSSHforWindows-Installer/issues"
+AppUpdatesURL="https://github.com/LumitoLuma/OpenSSHforWindows-Installer"
 DefaultDirName={code:GetProgramFiles}\OpenSSH-Win64
 AllowNoIcons=yes
 DisableWelcomePage=no
 DisableProgramGroupPage=yes
 DisableFinishedPage=no
-LicenseFile=resources\LICENSE.txt
+LicenseFile=resources/LICENSE.txt
 PrivilegesRequired=admin
 OutputDir=x64
 ChangesEnvironment=true
 OutputBaseFilename=OpenSSHforWindows-Installer-x64
-SetupIconFile=resources\setup.ico
+SetupIconFile=resources/setup.ico
 Compression=lzma
 SolidCompression=yes
 UninstallFilesDir={app}\Tools
 UninstallDisplayName={#MyAppName}
 UninstallDisplayIcon={app}\Tools\unins000.exe,0
 WizardStyle=modern
-WizardImageFile=resources\side.bmp
-WizardSmallImageFile=resources\head.bmp
+WizardImageFile=resources/side.bmp
+WizardSmallImageFile=resources/head.bmp
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
