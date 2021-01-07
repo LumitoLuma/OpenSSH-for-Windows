@@ -102,14 +102,14 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 
 ## Copyrights
 
-© 1996 - 2020, the OpenBSD project
+© 1996 - 2021, the OpenBSD project
 
-© 1999 - 2020, the OpenSSH project
+© 1999 - 2021, the OpenSSH project
 
-© 2006 - 2020, PowerShell and Microsoft Corporation
+© 2006 - 2021, PowerShell and Microsoft Corporation
 
-© 2017 - 2020, Chocolatey Software Inc.
+© 2017 - 2021, Chocolatey Software Inc.
 
-© 1997 - 2020, Jordan Russell's Software
+© 1997 - 2021, Jordan Russell's Software
 <br><br>
-**© 2020, Lumito - [www.lumito.net](https://www.lumito.net)**
+**© 2021, Lumito - [www.lumito.net](https://www.lumito.net)**
