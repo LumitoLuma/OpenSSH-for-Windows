@@ -1,5 +1,4 @@
 os: windows
 language: C
 script:
-  - ./install.bat
   - ./install-cxp.bat
