@@ -27,19 +27,3 @@ jobs:
       artifact: 'OpenSSH for Windows - Installer x64 setup'
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
-
-- job: Windows_old
-
-  pool:
-    vmImage: 'windows-latest'
-
-  steps:
-  - script: |
-      cd old
-      install.bat
-    displayName: 'Install'
-
-  - script: |
-      cd old
-      install-cxp.bat
-    displayName: 'Install changing the execution policy'

@@ -40,6 +40,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: envPath; Description: "Add installation folder to PATH (Highly recommended)"
+Name: regSSH; Description: "Register SSHD and SSH-AGENT services"
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}";
@@ -48,10 +49,10 @@ Type: filesandordirs; Name: "{app}";
 Source: "src-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
-Filename: "{app}\Tools\RegisterSSH.bat";
+Filename: "{app}\Tools\RegisterSSH.bat"; Tasks: regSSH
 
 [UninstallRun]
-Filename: "{app}\Tools\UnregisterSSH.bat";
+Filename: "{app}\Tools\UnregisterSSH.bat"; Tasks: regSSH; RunOnceId: regSSH
 
 [Code]
 procedure CurStepChanged(CurStep: TSetupStep);
