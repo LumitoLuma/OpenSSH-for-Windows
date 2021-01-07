@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Install
-          command: install.bat
+          command: cmd /c install.bat
       - run:
           name: Install changing execution policy
-          command: install-cxp.bat
+          command: cmd /c install-cxp.bat
