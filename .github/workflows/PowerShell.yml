@@ -2,9 +2,9 @@ name: PowerShell Install (old)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ old ]
   pull_request:
-    branches: [ master ]
+    branches: [ old ]
 
 jobs:
 
