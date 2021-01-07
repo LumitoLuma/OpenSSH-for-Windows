@@ -1,0 +1,21 @@
+name: PowerShell Install (old)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Install
+      run: cmd /c install.bat
+
+    - name: Install changing execution policy
+      run: cmd /c install-cxp.bat
