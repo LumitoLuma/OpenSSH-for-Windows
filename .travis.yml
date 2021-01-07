@@ -1,5 +1,5 @@
 os: windows
 language: C
 script:
-  - cmd /c install.bat
-  - cmd /c install-cxp.bat
+  - ./install.bat
+  - ./install-cxp.bat
