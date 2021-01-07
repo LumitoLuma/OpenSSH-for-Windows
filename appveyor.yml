@@ -6,6 +6,6 @@ branches:
 
 image: Visual Studio 2019
 clone_depth: 1
-build:
+build_script:
   - install.bat
   - install-cxp.bat
