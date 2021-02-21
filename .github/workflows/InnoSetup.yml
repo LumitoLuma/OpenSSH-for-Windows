@@ -7,7 +7,8 @@ on:
     branches: [ master ]
 
 jobs:
-  'Windows x64':
+  windows_x64:
+    name: Windows x64
     runs-on: windows-latest
 
     steps:
@@ -28,7 +29,8 @@ jobs:
         name: Inno Setup x64 compiled script
         path: x64
 
-  'Windows x86':
+  windows_x86:
+    name: Windows x86
     runs-on: windows-latest
 
     steps:
