@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  'Windows x64':
     runs-on: windows-latest
 
     steps:
@@ -27,3 +27,26 @@ jobs:
       with:
         name: Inno Setup x64 compiled script
         path: x64
+
+  'Windows x86':
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Enable Developer Command Prompt
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: x86
+    
+    - name: Compile ISCompil.cpp
+      run: cd ISCompiler && cl ISCompil.cpp
+    
+    - name: Compile Inno Setup script using ISCompil.exe
+      run: cd ISCompiler && .\ISCompil.exe
+    
+    - name: Uploading Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Inno Setup x86 compiled script
+        path: x86
