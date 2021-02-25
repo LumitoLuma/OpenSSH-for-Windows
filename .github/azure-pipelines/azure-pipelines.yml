@@ -34,21 +34,8 @@ jobs:
     vmImage: 'windows-latest'
 
   steps:
-  - task: BatchScript@1
-    inputs:
-      filename: 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars32.bat'
-      modifyEnvironment: true
-    displayName: 'Enabling VS2019 Developer Command Prompt'
-
-  - script: |
-      cd ISCompiler
-      cl.exe ISCompil.cpp
-    displayName: 'Compiling ISCompil.cpp'
-
-  - script: |
-      cd ISCompiler
-      ISCompil.exe
-    displayName: 'Compiling correct version of OpenSSH for Windows - Installer using ISCompil.exe'
+  - script: 'C:\Program Files (x86)\Inno Setup 6\iscc.exe OpenSSH-Win32.iss'
+    displayName: 'Compiling OpenSSH for Windows - Installer x86'
 
   - task: PublishPipelineArtifact@1
     inputs:

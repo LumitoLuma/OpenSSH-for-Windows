@@ -35,17 +35,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - name: Enable Developer Command Prompt
-      uses: ilammy/msvc-dev-cmd@v1
-      with:
-        arch: x86
-    
-    - name: Compile ISCompil.cpp
-      run: cd ISCompiler && cl ISCompil.cpp
-    
-    - name: Compile Inno Setup script using ISCompil.exe
-      run: cd ISCompiler && .\ISCompil.exe
+
+    - name: Compile Inno Setup script
+      run: 'C:\Program Files (x86)\Inno Setup 6\iscc.exe OpenSSH-Win32.iss'
     
     - name: Uploading Build Artifact
       uses: actions/upload-artifact@v2
