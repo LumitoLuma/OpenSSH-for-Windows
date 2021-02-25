@@ -1,5 +1,5 @@
 jobs:
-- job: Windows x64
+- job: Windows_x64
 
   pool:
     vmImage: 'windows-latest'
@@ -28,13 +28,13 @@ jobs:
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
 
-- job: Windows x86
+- job: Windows_x86
 
   pool:
     vmImage: 'windows-latest'
 
   steps:
-  - script: 'C:\Program Files (x86)\Inno Setup 6\iscc.exe OpenSSH-Win32.iss'
+  - script: 'cmd /c "C:\Program Files (x86)\Inno Setup 6\iscc.exe" OpenSSH-Win32.iss'
     displayName: 'Compiling OpenSSH for Windows - Installer x86'
 
   - task: PublishPipelineArtifact@1
