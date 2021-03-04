@@ -1,10 +1,10 @@
-# OpenSSH for Windows - Installer
+# OpenSSH for Windows
 
-## About OpenSSH for Windows - Installer
+## About OpenSSH for Windows
 
 OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.2p1** and **LibreSSL v3.0.2**
 
-An that is what OpenSSH for Windows - Installer does: installs a modern version of OpenSSH into your Windows system.
+An that is what *OpenSSH for Windows* does: installs a modern version of OpenSSH into your Windows system.
 
 However, this is not the latest version of the product, because I have used a portable compiled version from [PowerShell's GitHub](https://github.com/PowerShell).
 
@@ -17,7 +17,7 @@ Simply go to the releases tab and download the binary for your Windows architect
 |                        GitHub Actions                        |                           AppVeyor                           |                       Azure Pipelines                        |                          Travis CI                           |                            Codacy                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [![Inno Setup](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/Inno%20Setup/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A%22Inno+Setup%22) | [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer) | [![Build Status](https://lumito.visualstudio.com/GitHub/_apis/build/status/LumitoLuma.OpenSSHforWindows-Installer?branchName=master)](https://lumito.visualstudio.com/GitHub/_build/latest?definitionId=4&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer.svg?branch=master)](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0285d9a57f52467d8f5b006386b1ffba)](https://www.codacy.com/manual/LumitoLuma/OpenSSHforWindows-Installer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/OpenSSHforWindows-Installer&amp;utm_campaign=Badge_Grade) |
-| [![PowerShell Install (old)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/PowerShell%20Install%20(old)/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A%22PowerShell+Install+%28old%29%22) |                        **----------**                        |                        **----------**                        |                        **----------**                        |                        **----------**                        |
+| [![PowerShell Install (old)](https://github.com/LumitoLuma/OpenSSH-for-Windows/workflows/PowerShell%20Install%20(old)/badge.svg)](https://github.com/LumitoLuma/OpenSSH-for-Windows/actions?query=workflow%3A%22PowerShell+Install+%28old%29%22) |                        **----------**                        |                        **----------**                        |                        **----------**                        |                        **----------**                        |
 
 #### Requirements
 -   Inno Setup 6
@@ -54,7 +54,7 @@ You can contribute with the following things:
 -   A new portable version of OpenSSH
 -   Code improvements
 
-Please report bugs through the [Issues](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/issues) tab.
+Please report bugs through the [Issues](https://github.com/LumitoLuma/OpenSSH-for-Windows/issues) tab.
 
 ## Acknowledgements
 
