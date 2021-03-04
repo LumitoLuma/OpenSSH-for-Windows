@@ -2,7 +2,7 @@
 
 ## About OpenSSH for Windows - Installer
 
-OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable.
+OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.2p1** and **LibreSSL v3.0.2**
 
 An that is what OpenSSH for Windows - Installer does: installs a modern version of OpenSSH into your Windows system.
 
@@ -58,7 +58,7 @@ Please report bugs through the [Issues](https://github.com/LumitoLuma/OpenSSHfor
 
 ## Acknowledgements
 
-I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell), [Chocolatey](https://www.chocolatey.org) and [Inno Setup](https://www.innosetup.com) for making this project possible, and to you for choosing my programs!
+I would like to thank [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell), [Chocolatey](https://www.chocolatey.org) and [Inno Setup](https://www.innosetup.com) for making this project possible, and you for choosing my software!
 
 ## Copyrights
 
@@ -72,4 +72,4 @@ I want to thanks to [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.op
 
 © 1997 - 2021, Jordan Russell's Software
 <br><br>
-**© 2021, Lumito - [www.lumito.net](https://www.lumito.net)**
+**© 2020 - 2021, Lumito - [www.lumito.net](https://www.lumito.net)**

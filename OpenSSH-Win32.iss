@@ -1,7 +1,7 @@
 #include "resources/environment.iss"
 
 #define MyAppName "OpenSSH for Windows x86"
-#define MyAppVersion "8.1"
+#define MyAppVersion "8.2"
 #define MyAppPublisher "Lumito"
 
 [Setup]
