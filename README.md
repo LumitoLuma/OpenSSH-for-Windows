@@ -16,7 +16,7 @@ Simply go to the releases tab and download the binary for your Windows architect
 
 |                        GitHub Actions                        |                           AppVeyor                           |                       Azure Pipelines                        |                          Travis CI                           |                            Codacy                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [![Inno Setup](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/workflows/Inno%20Setup/badge.svg)](https://github.com/LumitoLuma/OpenSSHforWindows-Installer/actions?query=workflow%3A%22Inno+Setup%22) | [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer) | [![Build Status](https://lumito.visualstudio.com/GitHub/_apis/build/status/LumitoLuma.OpenSSHforWindows-Installer?branchName=master)](https://lumito.visualstudio.com/GitHub/_build/latest?definitionId=4&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer.svg?branch=master)](https://travis-ci.com/LumitoLuma/OpenSSHforWindows-Installer) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0285d9a57f52467d8f5b006386b1ffba)](https://www.codacy.com/manual/LumitoLuma/OpenSSHforWindows-Installer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/OpenSSHforWindows-Installer&amp;utm_campaign=Badge_Grade) |
+| [![Inno Setup](https://github.com/LumitoLuma/OpenSSH-for-Windows/workflows/Inno%20Setup/badge.svg)](https://github.com/LumitoLuma/OpenSSH-for-Windows/actions?query=workflow%3A%22Inno+Setup%22) | [![Build status](https://ci.appveyor.com/api/projects/status/na7ther37swbma0i?svg=true)](https://ci.appveyor.com/project/LumitoLuma/OpenSSHforWindows-Installer) | [![Build Status](https://lumito.visualstudio.com/GitHub/_apis/build/status/LumitoLuma.OpenSSH-for-Windows?branchName=master)](https://lumito.visualstudio.com/GitHub/_build/latest?definitionId=23&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/OpenSSH-for-Windows.svg?branch=master)](https://travis-ci.com/LumitoLuma/OpenSSH-for-Windows) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0285d9a57f52467d8f5b006386b1ffba)](https://www.codacy.com/gh/LumitoLuma/OpenSSH-for-Windows/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/OpenSSH-for-Windows&amp;utm_campaign=Badge_Grade) |
 | [![PowerShell Install (old)](https://github.com/LumitoLuma/OpenSSH-for-Windows/workflows/PowerShell%20Install%20(old)/badge.svg)](https://github.com/LumitoLuma/OpenSSH-for-Windows/actions?query=workflow%3A%22PowerShell+Install+%28old%29%22) |                        **----------**                        |                        **----------**                        |                        **----------**                        |                        **----------**                        |
 
 #### Requirements
@@ -44,6 +44,10 @@ Simply go to the releases tab and download the binary for your Windows architect
 ## Uninstallation instructions
 
 You can uninstall OpenSSH for Windows through Programs and Features in Control Panel.
+
+## Additional notes
+
+OpenSSH for Windows' binaries sources are available [here](https://github.com/LumitoLuma/openssh-portable).
 
 ## Contributing to the project
 
