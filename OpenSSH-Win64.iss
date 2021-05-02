@@ -1,7 +1,7 @@
 #include "resources/environment.iss"
 
 #define MyAppName "OpenSSH for Windows x64"
-#define MyAppVersion "8.2"
+#define MyAppVersion "8.6"
 #define MyAppPublisher "Lumito"
 
 [Setup]
@@ -24,9 +24,9 @@ LicenseFile=resources/LICENSE.txt
 PrivilegesRequired=admin
 OutputDir=x64
 ChangesEnvironment=true
-OutputBaseFilename=OpenSSHforWindows-Installer-x64
+OutputBaseFilename=OpenSSH-for-Windows-x64
 SetupIconFile=resources/setup.ico
-Compression=lzma
+Compression=lzma2/ultra64
 SolidCompression=yes
 UninstallFilesDir={app}\Tools
 UninstallDisplayName={#MyAppName}
