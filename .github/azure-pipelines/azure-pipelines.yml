@@ -23,7 +23,7 @@ jobs:
 
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Pipeline.Workspace)\s\x64\OpenSSHforWindows-Installer-x64.exe'
+      targetPath: '$(Pipeline.Workspace)\s\x64\OpenSSH-for-Windows-x64.exe'
       artifact: 'OpenSSH for Windows - Installer x64 setup'
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
@@ -39,7 +39,7 @@ jobs:
 
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Pipeline.Workspace)\s\x86\OpenSSHforWindows-Installer-x86.exe'
+      targetPath: '$(Pipeline.Workspace)\s\x86\OpenSSH-for-Windows-x86.exe'
       artifact: 'OpenSSH for Windows - Installer x86 setup'
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
