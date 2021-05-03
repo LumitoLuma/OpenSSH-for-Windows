@@ -2,7 +2,7 @@
 
 ## About OpenSSH for Windows
 
-OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.2p1** and **LibreSSL v3.0.2**
+OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.6p1** and **LibreSSL v3.0.2**
 
 An that is what *OpenSSH for Windows* does: installs a modern version of OpenSSH into your Windows system.
 
@@ -71,8 +71,6 @@ I would like to thank [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.
 © 1999 - 2021, the OpenSSH project
 
 © 2006 - 2021, PowerShell and Microsoft Corporation
-
-© 2017 - 2021, Chocolatey Software Inc.
 
 © 1997 - 2021, Jordan Russell's Software
 <br><br>
