@@ -2,11 +2,9 @@
 
 ## About OpenSSH for Windows
 
-OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.6p1** and **LibreSSL v3.0.2**
+OpenSSH is a very popular suite of network utilities based on the SSH protocol (Secure Shell). Finding an installation tool for Windows is not very easy, since almost all Windows versions are portable. Update: Now with **OpenSSH v8.6p1** and **LibreSSL v3.3.3**
 
 An that is what *OpenSSH for Windows* does: installs a modern version of OpenSSH into your Windows system.
-
-However, this is not the latest version of the product, because I have used a portable compiled version from [PowerShell's GitHub](https://github.com/PowerShell).
 
 ## Installation instructions
 
@@ -62,7 +60,7 @@ Please report bugs through the [Issues](https://github.com/LumitoLuma/OpenSSH-fo
 
 ## Acknowledgements
 
-I would like to thank [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell), [Chocolatey](https://www.chocolatey.org) and [Inno Setup](https://www.innosetup.com) for making this project possible, and you for choosing my software!
+I would like to thank [OpenBSD](https://www.openbsd.org), [OpenSSH](https://www.openssh.org), [PowerShell](https://github.com/PowerShell) and [Inno Setup](https://www.innosetup.com) for making this project possible, and you for choosing my software!
 
 ## Copyrights
 
