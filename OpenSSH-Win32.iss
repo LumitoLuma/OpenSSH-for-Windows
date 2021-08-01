@@ -40,7 +40,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: envPath; Description: "Add installation folder to PATH (Highly recommended)"
-Name: regSSH; Description: "Register SSHD and SSH-AGENT services"
+Name: regSSH; Description: "Register SSHD and SSH-AGENT services"; Flags: unchecked
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}";
