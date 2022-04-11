@@ -24,7 +24,7 @@ jobs:
       run: cd ISCompiler && .\ISCompil.exe
     
     - name: Uploading Build Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Inno Setup x64 compiled script
         path: x64
@@ -40,7 +40,7 @@ jobs:
       run: 'cmd /c "C:\Program Files (x86)\Inno Setup 6\iscc.exe" OpenSSH-Win32.iss'
     
     - name: Uploading Build Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Inno Setup x86 compiled script
         path: x86
